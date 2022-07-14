@@ -1,1 +1,3 @@
-
+import random
+Monster = ['Rathian', 'Rathalos', 'Basrios', 'Khezu', 'Nargacuga', 'Lucent Nargacuga', 'Tigrex', 'Diablos', 'Barioth', 'Bazelgeuse', 'Espinas', 'Astalos','Tobi-Kadachi', 'Zinogre', 'Magnamalo', 'Scorned Magnamalo', 'Lunagaron', 'Barroth', 'Anjanath', 'Great Izuchi', 'Great Baggi', 'Great Wroggi', 'Kulu-Ya-Ku', 'Aknosom', 'Pukei-Pukei', 'Jyuratodus', 'Mizutsune', 'Aurora Somnacanth', 'Royal Ludroth', 'Almudron', 'Magma Almudron','Rajang', 'Bishaten', 'Blood Orange Bishaten', 'Arzuros', 'Lagombi', 'Volvidon', 'Goss Harag', 'Garangolm', 'Tetradon', 'Daimyo Hermitaur', 'Shogun Ceanataur', 'Rakna-Kadaki', 'Pyre Rakna-Kadaki', 'Chameleos', 'Kushala Doara', 'Teostra', 'Ibushi', 'Narwa', 'Allmother Narwa', 'Crimson Glow Valstrax', 'Shaguru Magala', 'Malzeno', 'Gaismagorm', 'Gore Magala']print('Hunt a ' + random.choice(Monster) + ' with ' + random.choice(Weapon) +'.')
+print('Hunt a ' random.choice(Monster))
